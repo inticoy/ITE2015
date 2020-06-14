@@ -1,19 +1,16 @@
 module tb();
-  logic [7:0]a;
-  logic y;
+  logic [3:0]a,y;
 
   // instantiate device to be tested
-  and8 dut(a,y);
+  inv dut(a,y);
 
   // generate input sequence
   initial
     begin
-      a = 8'b00000000; 
+      a = 4'b0000; 
       #10;
-      a = 8'b00001111; 
+      a = 4'b0011; 
       #10
-	  a = 8'b11000011;
-	  #10;
-	  a = 8'b11111111;
+	  $stop;
     end
 endmodule

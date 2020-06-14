@@ -11,4 +11,3 @@ add wave /a
 add wave /y
 run -all
 ### 3단계 : quit # modelsim 종료
-
