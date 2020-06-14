@@ -1,0 +1,56 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/PROGRAMMING/SystemVerilog/ITE2015/chapter_4/exercise_4_3
+vfxor
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1592141388
+!i10b 1
+!s100 dT=d51ZG[NPC?zZ9jPzCM0
+IQY6SceEJVVn@3g`A]VC=]0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 hw_sv_unit
+S1
+R0
+w1592141301
+8hw.sv
+Fhw.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1592141388.000000
+Z6 !s107 hw.sv|tb.sv|
+Z7 !s90 -reportprogress|300|tb.sv|hw.sv|
+!i113 1
+Z8 tCvgOpt 0
+vtb
+R1
+R2
+!i10b 1
+!s100 TTekW5Dc;HN4`9Q`JRe551
+IB8h^4:cFhezo4UAQFm0Nf1
+R3
+!s105 tb_sv_unit
+S1
+R0
+w1592141341
+8tb.sv
+Ftb.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
