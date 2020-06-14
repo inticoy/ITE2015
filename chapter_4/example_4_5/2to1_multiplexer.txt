@@ -1,0 +1,2 @@
+? : is ternary operator / conditional operator
+use this to 2:1 describe multiplexer

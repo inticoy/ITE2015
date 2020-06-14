@@ -1,0 +1,2 @@
+and function using like 
+&VARIABLE_NAME means doing & for each bit

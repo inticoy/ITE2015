@@ -1,0 +1,102 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/PROGRAMMING/SystemVerilog/ITE2015/chapter_4/example_4_3
+vand8
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1592127695
+!i10b 1
+!s100 8LH>]Ena9F;Y`V@UZF91R3
+I]hXM]X[U9XHRKP_4X46U21
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 !s105 hw_sv_unit
+S1
+dD:/PROGRAMMING/SystemVerilog/ITE2015/chapter_4/example_4_4
+w1592127508
+Z4 8hw.sv
+Z5 Fhw.sv
+L0 1
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1592127695.000000
+Z7 !s107 hw.sv|tb.sv|
+Z8 !s90 -reportprogress|300|tb.sv|hw.sv|
+!i113 1
+Z9 tCvgOpt 0
+vgates
+R1
+!s110 1592127259
+!i10b 1
+!s100 H4>^bQle`@K=bg5m1VR;02
+IKYRlVm2iRoe:;:zkbOYSA3
+R2
+R3
+S1
+R0
+w1592126874
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1592127259.000000
+R7
+R8
+!i113 1
+R9
+vmux2
+R1
+Z10 !s110 1592132416
+!i10b 1
+!s100 Y<f:XRM@6WQlI6>?_HhjQ3
+IQ6fVSB>eS=GT>DXOcfnG<3
+R2
+R3
+S1
+Z11 dD:/PROGRAMMING/SystemVerilog/ITE2015/chapter_4/example_4_6
+Z12 w1592132406
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+Z13 !s108 1592132415.000000
+R7
+R8
+!i113 1
+R9
+vtb
+R1
+R10
+!i10b 1
+!s100 fZ:ga1G9[BJBk9EW9Sjdg3
+I[@U7PaJAzhQKO8h;j_0901
+R2
+!s105 tb_sv_unit
+S1
+R11
+R12
+8tb.sv
+Ftb.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R13
+R7
+R8
+!i113 1
+R9
