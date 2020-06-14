@@ -1,0 +1,30 @@
+//The text file to be read shall contain only the following:
+//White space (spaces, newlines, tabs, and formfeeds)
+//Comments (both types of comment are allowed)
+//Binary or hexadecimal numbers
+
+//For $readmemb, each number shall be binary. 
+//For $readmemh, the numbers shall be hexadecimal. 
+//The unknown value (x or X), the highimpedance value (z or Z), 
+//and the underscore (_) can be used in specifying a number 
+//as in a Verilog HDL source description. 
+//White space and/or comments shall be used to separate the numbers
+
+2002_0005
+2003000c
+2067fff7
+00e22025
+00642824
+00a42820
+10a7000a
+0064202a
+10800001
+20050000
+00e2202a
+00853820
+00e23822
+ac670044
+8c020050
+08000011
+20020001
+ac020054

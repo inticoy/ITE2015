@@ -1,0 +1,26 @@
+//text file 설명 : 565쪽 21.4 Loading memory array data from a file
+//$readmemb 또는 $readmemh용 data file은 아래와 같이 comment를 할 수 있다
+//CPU simulation시 machine code 파일 내용설명이 쉽다.
+//The text file to be read shall contain only the following:
+//White space (spaces, newlines, tabs, and formfeeds)
+//Comments (both types of comment are allowed)
+//Binary or hexadecimal numbers
+
+//For $readmemb, each number shall be binary. 
+//For $readmemh, the numbers shall be hexadecimal. 
+//The unknown value (x or X), the highimpedance value (z or Z), 
+//and the underscore (_) can be used in specifying a number 
+//as in a Verilog HDL source description. 
+//White space and/or comments shall be used to separate the numbers
+
+// S0 La=green(00)  Lb=red(10)
+// S1 La=yellow(01) Lb=red(10)
+// S2 La=red(10)    Lb=green(00)
+// S3 La=red(10)    Lb=yellow(01)
+
+//Ta_Tb_La_Lb
+1_0_00_10  //S0
+0_1_01_10  //S1
+0_1_10_00  //S2
+0_0_10_01  //S3
+0_0_00_10  //S0

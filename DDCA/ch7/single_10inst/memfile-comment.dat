@@ -1,0 +1,37 @@
+//The text file to be read shall contain only the following:
+//White space (spaces, newlines, tabs, and formfeeds)
+//Comments (both types of comment are allowed)
+//Binary or hexadecimal numbers
+
+//For $readmemb, each number shall be binary. 
+//For $readmemh, the numbers shall be hexadecimal. 
+//The unknown value (x or X), the highimpedance value (z or Z), 
+//and the underscore (_) can be used in specifying a number 
+//as in a Verilog HDL source description. 
+//White space and/or comments shall be used to separate the numbers
+
+// Test the MIPS processor.
+// 10개 instruction: add, sub, and, or, slt, addi, lw, sw, beq, j
+
+// 18라인 memfile
+2002_0005 //main:   addi $2, $0, 5     #L1: initialize $2 = 5
+2003_000c //        addi $3, $0, 12    #L2: initialize $3 = 12
+2067_fff7 //        addi $7, $3, -9    #L3: initialize $7 = 3
+00e2_2025 //        or $4, $7, $2      #L4: $4 = (3 or 5) = 7
+0064_2824 //        and $5, $3, $4     #L5: $5 = (12 and 7)=4
+
+00a4_2820 //        add $5, $5, $4     #L6: $5 = 4 + 7 = 11
+10a7_000a //        beq $5, $7, end    #L7: shouldn't be taken 
+0064_202a //        slt $4, $3, $4     #L8: $4 = 12 < 7 = 0
+1080_0001 //        beq $4, $0, around #L9: should be taken
+2005_0000 //        addi $5, $0, 0     #L10: shouldn't happen
+
+00e2_202a //around: slt $4, $7, $2     #L11: $4 = 3 < 5 = 1
+0085_3820 //        add $7, $4, $5     #L12: $7 = 1 + 11 = 12 
+00e2_3822 //        sub $7, $7, $2     #L13: $7 = 12 - 5 = 7
+ac67_0044 //        sw $7, 68($3)      #L14: [80] = 7
+8c02_0050 //        lw $2, 80($0)      #L15: $2 = [80] = 7
+
+0800_0011 //        j end              #L16: should be taken
+2002_0001 //        addi $2, $0, 1     #L17: shouldn't happen
+ac02_0054 //end:    sw $2, 84($0)      #L18: write mem[84] = 7
